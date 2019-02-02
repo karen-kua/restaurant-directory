@@ -1,0 +1,22 @@
+body {
+    background-color: #f0eff1;
+}
+
+#cityForm {
+    display: inline-flex;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#noDataMsg {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#noDataP {
+    font-size: 70px;
+    color: coral;
+    font-weight: bold;
+}

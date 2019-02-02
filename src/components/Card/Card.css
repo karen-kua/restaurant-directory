@@ -1,0 +1,114 @@
+.card {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #f5f4f5;
+}
+
+.cardContainer {
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 100px;
+    height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 70px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+::-webkit-scrollbar {
+    width: 0px;  
+}
+
+header, a {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+img {
+    border:1px solid lightgrey;    
+    height:110px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:110px;
+    margin: 20%
+}
+
+.detailsClass, .testClass {
+    margin-left: 5%;
+    line-height: 90%;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.testClass {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.extendSymbol {
+    margin-top: 24%;
+    color: grey;
+    font-size: 20px;
+}
+
+.extendSymbol:hover {
+    color: black;
+}
+
+.btn {
+    background-color: grey;
+    border-color: grey;
+    margin: 1px;
+    font-size: 11px;
+}
+
+.subHeaders {
+    font-weight: bold;
+}
+
+#headerDiv {
+    margin-right: 25%;
+}
+
+.headerClass{
+    margin-left: 8%;
+    font-size: 25px;
+}
+
+#iID {
+    bottom: 11px;
+    position: relative;
+}
+
+@media only screen and (max-width: 990px) {
+    .extendSymbol {
+      margin: 0 0 5% 0;
+    }
+
+    .card {
+     text-align: center;
+    }
+
+    .detailsClass {
+        margin: 0 auto;
+    }
+
+    #headerDiv {
+        margin-right: 0;
+    }
+    
+    .headerClass{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    
+    #iID {
+        bottom: 0;
+        position: relative;
+    }
+  }
