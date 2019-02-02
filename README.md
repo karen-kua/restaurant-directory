@@ -28,5 +28,5 @@ This app was created by:
 
 * [azukimochi](https://github.com/azukimochi)
 
-![](https://media.giphy.com/media/3YJ2oRxq8FleEQMFek/source.gif)
+![](https://media.giphy.com/media/3YJ2oRxq8FleEQMFek/giphy.gif)
 
