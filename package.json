@@ -2,7 +2,7 @@
   "name": "opentable",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://azukimochi.github.io/",
+  "homepage": "https://azukimochi.github.io/restaurant-directory/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.5.2",
@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
     "deploy": "react-scripts build && gh-pages -d build"
   },
   "eslintConfig": {
