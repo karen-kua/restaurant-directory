@@ -6,7 +6,7 @@ import CitySearchBar from "./components/SearchBar/CitySearchBar.js"
 import NameSearchBar from "./components/SearchBar/NameSearchBar.js"
 import "./App.css"
 
-const URL = "http://opentable.herokuapp.com/api/restaurants?city="
+const URL = "https://opentable.herokuapp.com/api/restaurants?city="
 
 class App extends Component {
   state = {
