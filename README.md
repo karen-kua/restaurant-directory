@@ -22,11 +22,5 @@ React.js, JavaScript, ES6/ES7, Bootstrap, HTMl, CSS, Axios, YARN
 * After installing all the node modules, run `yarn start` in the command line 
 * This app will take up port 3000, but your terminal will request for you to switch ports if port 3000 is already occupied
 
-## Creators
-
-This app was created by:
-
-* [azukimochi](https://github.com/azukimochi)
-
 ![](https://media.giphy.com/media/3YJ2oRxq8FleEQMFek/giphy.gif)
 
